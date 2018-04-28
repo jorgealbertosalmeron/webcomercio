@@ -16,3 +16,5 @@ git commit -m "agregue el index.txt"  este sirve para anuciar al servidor que se
 					git config --global user.email "jorgesalmeron_sal@hotmail.com"
 con git push origin master se envian las modificaciones al repositorio en linea
 con git pull se jala las actualizaciones de repositorio en github
+
+cuando hay nuevas modificaciones se pueden jalar 
