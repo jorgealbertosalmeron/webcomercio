@@ -1,0 +1,18 @@
+git la guia sencilla 
+
+para descargar la carpeta 
+situar a github en esa carpeta para descargar una carpeta de github en linea
+se pone el siguinte instruccion 
+git clone git@github.com:jorgealbertosalmeron/webcomercio.git
+
+
+para vesionar un proyecto
+git add index.txt  para subir un archivo a github
+git add .   le dice que suba todo a github
+git status dice si hay actualizaciones que se van insertar en el servidor
+git commit -m "agregue el index.txt"  este sirve para anuciar al servidor que se le manda un archivo que tiene en espera 
+					si en este da un error es porque no se inicio sesion asi que debe hacerlos con 
+					git config --global user.name "jorgealbertosalmeron" y
+					git config --global user.email "jorgesalmeron_sal@hotmail.com"
+con git push origin master se envian las modificaciones al repositorio en linea
+con git pull se jala las actualizaciones de repositorio en github
